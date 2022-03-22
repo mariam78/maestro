@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    min-height: 10vh;
+    width: 100%;
+}
+
+.first{
+    padding: 10px;
+    display: flex;
+    border-bottom: 0.8px solid #8d8a8a43;
+}
+
+.search{
+    color: #aa3daa;
+}
+
+.left{
+    position: relative;
+    left: 100px;
+    flex: 2;
+
+}
+
+.left span{
+    position: absolute;
+    left: 8px;
+    top: 3px;
+}
+
+.left input{
+    outline: none;
+    padding: 2px;
+    color:  #CBC3E3;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #CBC3E3;
+}
+
+.right{
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+
+
+
+.right ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    
+}
+
+
+.plus{
+    background-color:  white;
+    color: purple;
+    min-height: 10px;
+}
+
+.cloche{
+    text-shadow: 0 0 4px purple;
+    color: white;
+
+}
+
+
+.person{
+    text-shadow: 0 0 4px purple;
+    color: white;
+}
+
+.flag{
+    height: 20px;
+    border-radius: 100%;
+}
+
+
+.jane{
+    display: flex;
+    place-items: center;
+    text-align: center;
+}
+
+.janeimg{
+    border-radius: 100%;
+    padding-right: 4px;
+}
+
+.jane h5{
+    display: block;
+}
+
+
+
+/*second part nav*/
+
+.second{
+    display: flex;
+    min-height: 5vh;
+    -webkit-box-shadow: -2px 18px 15px 4px rgba(203,195,227,0.78); 
+    box-shadow: -2px 18px 15px 4px rgba(203,195,227,0.78);
+}
+
+.secondfirst{
+   position:  relative;
+    display: flex;
+    place-items: center;
+    padding-left: 80px;
+    flex: 1;
+    
+}
+
+.secondsecond{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    min-width: 20%;
+    right: 20px;
+    place-items: center;
+}
+
+
+.secondsecond button{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #f3f3f3;
+    color: #CBC3E3;
+}
+
+.housedad{
+    list-style: none;
+  
+}
+
+.house{
+    padding-right: 5px;
+    color: #CBC3E3
+}
+
+
+.housekid{
+    color: #CBC3E3;
+}
+
+
+#btn3{
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+/*bar laterale*/
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: white;
+   -webkit-box-shadow: 11px 18px 15px 4px rgba(203,195,227,0.78); 
+   box-shadow: 11px 18px 15px 4px rgba(203,195,227,0.78);
+}
+
+
+
+.logo{
+    display: flex;
+    }
+
+.firstside l{
+
+   
+}
+
+
+
+.listitem{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.listitem li{
+    padding: 20px;
+}
+
+.secondside{
+    display: flex;
+    justify-items: end;
+    align-items: center
+}
+
+
+.bot{
+    text-align: center;
+}
+.logo{
+    height: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+
+    .right{
+        display: flex;
+        place-items: center;
+        text-align: center;      
+        flex: 1;
+    }
+
+    .right ul{
+        width: 100%;
+        margin: auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        justify-items: center;
+        
+    }
+    .right ul li{
+      padding: 2px;
+        
+    }
+
+
+.jane h5{
+    display: none;
+}
+  }
